@@ -824,3 +824,9 @@ footer {
     color: var(--accent-color) !important;
 }
 
+
+/* Mobile Menu Fix */
+@media (max-width: 900px) { .nav-menu { top: 90px !important; z-index: 999 !important; height: calc(100vh - 90px) !important; overflow-y: auto !important; } }
+
+/* Mobile Menu Text Color Fix */
+@media (max-width: 900px) { .nav-menu .nav-link { color: var(--secondary-color) !important; } }
