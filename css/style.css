@@ -523,6 +523,7 @@ h6 {
     font-family: var(--font-heading);
     text-transform: uppercase;
     letter-spacing: 2px;
+   color:White;
 }
 
 /* Testimonials */
@@ -830,3 +831,4 @@ footer {
 
 /* Mobile Menu Text Color Fix */
 @media (max-width: 900px) { .nav-menu .nav-link { color: var(--secondary-color) !important; } }
+
