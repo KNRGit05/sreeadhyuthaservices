@@ -24,7 +24,7 @@
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container nav-container">
-            <a href="#" class="logo">
+            <a href="#home" class="logo">
                 <img src="images/logo_sa.png" alt="Sree Adhyutha A TO Z Consultancy"
                     style="height: 42%; width: 12%; margin-right: 10px;">
                 <span>Sree Adhyutha <span class="highlight">A TO Z Consultancy</span></span>
@@ -38,7 +38,7 @@
                 <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#services" class="nav-link">Services</a></li>
-				<li><a href="#services" class="nav-link">Products</a></li>
+				<li><a href="#products" class="nav-link">Products</a></li>
                 <li><a href="#testimonials" class="nav-link">Clients</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
                 <li><a href="#contact" class="btn btn-primary nav-btn">Get a Quote</a></li>
@@ -64,7 +64,37 @@
             </div>
         </div>
     </header>
+<!-- Premium Services Overview Section -->
+<section class="split-section section-padding">
+    <div class="container split-container">
+        
+        <!-- Left Image -->
+        <div class="split-image">
+            <img src="images/SAServices.jpeg" alt="Our Services">
+        </div>
 
+        <!-- Right Content -->
+        <div class="split-content">
+            <h5 class="section-label">Our Expertise</h5>
+            <h2 class="section-title">Complete Corporate & Business Solutions</h2>
+            <p>
+                We provide Accounting & Bookkeeping, Corporate Tax Registration & Filing, 
+                VAT Services, PRO Services, Business Setup, Travel & Tourism solutions 
+                and IT services tailored for your growth in Dubai.
+            </p>
+
+            <ul class="split-list">
+                <li>✔ Accounting & Tax Compliance</li>
+                <li>✔ Business Setup & PRO Services</li>
+                <li>✔ Travel & Visa Assistance</li>
+                <li>✔ IT & Digital Solutions</li>
+            </ul>
+
+            <a href="#services" class="btn btn-primary">Explore Services</a>
+        </div>
+
+    </div>
+</section>
     <!-- Feature Strip -->
     <section class="features-strip">
         <div class="container">
@@ -144,6 +174,7 @@
                 <h5 class="section-label">Our Services</h5>
                 <h2 class="section-title">Comprehensive Business Solutions</h2>
                 <p class="section-desc">Tailored services to meet every aspect of your corporate needs.</p>
+								
             </div>
             <div class="services-grid">
                 <!-- Service 1 -->
@@ -203,7 +234,37 @@
             </div>
         </div>
     </section>
+<!-- Premium Products Section -->
+<section id="products" class="split-section section-padding bg-light">
+    <div class="container split-container reverse">
 
+        <!-- Left Content -->
+        <div class="split-content">
+            <h5 class="section-label">Our Products</h5>
+            <h2 class="section-title">Trading & Product Solutions</h2>
+            <p>
+                We supply Food Products, Meat Trading, Packaging Materials, 
+                Telecommunication Products and E-Commerce goods across UAE 
+                with quality and reliability.
+            </p>
+
+            <ul class="split-list">
+                <li>✔ Foodstuff & Meat Trading</li>
+                <li>✔ Packaging & Industrial Materials</li>
+                <li>✔ DU & Etisalat Services</li>
+                <li>✔ E-Commerce Products</li>
+            </ul>
+
+            <a href="#contact" class="btn btn-primary">Contact for Products</a>
+        </div>
+
+        <!-- Right Image -->
+        <div class="split-image">
+            <img src="images/SAProducts.jpeg" alt="Our Products">
+        </div>
+
+    </div>
+</section>
     <!-- Why Choose Us -->
     <section class="why-us-section section-padding">
         <div class="container">
@@ -357,7 +418,10 @@
                             <label for="message">Message</label>
                             <textarea id="message" rows="4" placeholder="How can we help you?" required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary full-width">Send Message</button>
+						<a href="https://docs.google.com/forms/d/1wHDSz0Lu8hk0Uv75ZAG2ez_fUpTA2aBfxSTU8HAEG4s" target="_blank" class="btn btn-primary">
+						Contact Us
+							</a>
+                        <!-- <button type="submit"  class="btn btn-primary full-width">Send Message</button> -->
                     </form>
                 </div>
             </div>
@@ -397,6 +461,52 @@
         })();
     </script>
     <script src="js/script.js"></script>
+	
+	<!-- Floating WhatsApp & Call Buttons -->
+<style>
+  .floating-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 9999;
+  }
+
+  .floating-buttons a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 16px;
+    border-radius: 50px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+
+  .whatsapp {
+    background: #25D366;
+  }
+
+  .call {
+    background: #007bff;
+  }
+</style>
+
+<div class="floating-buttons">
+  <a class="whatsapp" href="https://wa.me/919000886774" target="_blank" name="jhon">
+    💬 WhatsApp
+  </a>
+  
+  
+
+  <a class="call" href="tel:+919000886774">
+    📞 Call
+  </a>
+</div>
+
 </body>
 
 </html>
