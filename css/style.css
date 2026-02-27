@@ -840,7 +840,7 @@ footer {
 
 .split-image img {
    width: 100%;
-    max-height: 500px;   /* Controls height properly */
+    max-height: 788px;   /* Controls height properly */
     object-fit: cover;   /* Keeps proportion */
     border-radius: 18px;
     box-shadow: 0 20px 40px rgba(0,0,0,0.12);
@@ -893,4 +893,5 @@ footer {
 }	
 
 /* ========================================================================================== */
+
 
